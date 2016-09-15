@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Messages View Controller-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController id="ObA-dk-sSI" customClass="MessagesViewController" customModule="FoodIMessage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qkL-Od-lgU"/>
+                        <viewControllerLayoutGuide type="bottom" id="n38-gi-rB5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1e-fi-ked">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="food lover" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Y0-P8-TSe">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSM-eh-bNZ">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CSM-eh-bNZ" firstAttribute="top" secondItem="qkL-Od-lgU" secondAttribute="bottom" id="71Q-Kb-wdL"/>
+                            <constraint firstItem="3Y0-P8-TSe" firstAttribute="top" secondItem="CSM-eh-bNZ" secondAttribute="top" id="KSr-Po-A8k"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3Y0-P8-TSe" secondAttribute="trailing" constant="10" id="KtU-id-145"/>
+                            <constraint firstItem="n38-gi-rB5" firstAttribute="top" secondItem="d1e-fi-ked" secondAttribute="bottom" id="O1m-1N-ivN"/>
+                            <constraint firstItem="CSM-eh-bNZ" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leadingMargin" constant="34" id="ufF-z5-Cs2"/>
+                            <constraint firstAttribute="centerX" secondItem="d1e-fi-ked" secondAttribute="centerX" id="wFy-hW-Bib"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="528"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--CompactVC-->
+        <scene sceneID="ffn-mV-JHU">
+            <objects>
+                <viewController storyboardIdentifier="CompactVC" id="kWn-Cs-isx" customClass="CompactVC" customModule="FoodIMessage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9pj-uY-PJY"/>
+                        <viewControllerLayoutGuide type="bottom" id="UMH-fL-9nI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rJy-8r-HTu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eXv-ib-NU2">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1s-3g-TBf">
+                                        <frame key="frameInset" minX="81" minY="66" width="51" height="30"/>
+                                        <state key="normal" title="Expand"/>
+                                        <connections>
+                                            <action selector="expandVC:" destination="kWn-Cs-isx" eventType="touchUpInside" id="hbc-hD-V1a"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.24292751000000001" blue="0.1753688102" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="M1s-3g-TBf" firstAttribute="leading" secondItem="eXv-ib-NU2" secondAttribute="leading" constant="81" id="m3h-dw-MYv"/>
+                                    <constraint firstItem="M1s-3g-TBf" firstAttribute="top" secondItem="eXv-ib-NU2" secondAttribute="top" constant="50" id="ssQ-YM-zVg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eXv-ib-NU2" firstAttribute="top" secondItem="9pj-uY-PJY" secondAttribute="bottom" id="FFs-iY-xAz"/>
+                            <constraint firstItem="UMH-fL-9nI" firstAttribute="top" secondItem="eXv-ib-NU2" secondAttribute="bottom" id="PBL-tB-JhJ"/>
+                            <constraint firstItem="eXv-ib-NU2" firstAttribute="leading" secondItem="rJy-8r-HTu" secondAttribute="leadingMargin" id="UnE-fG-ccO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eXv-ib-NU2" secondAttribute="trailing" id="erl-Km-vha"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jl2-P9-0FJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613.60000000000002" y="98.50074962518741"/>
+        </scene>
+        <!--ExpandVC-->
+        <scene sceneID="Wdt-AC-yze">
+            <objects>
+                <viewController storyboardIdentifier="ExpandVC" id="oh2-Qq-fnV" customClass="ExpandVC" customModule="FoodIMessage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D6p-iF-g1R"/>
+                        <viewControllerLayoutGuide type="bottom" id="KHd-r7-Ok0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2EW-5X-CE2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xeG-oU-MTA">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Dx-hK-f8z">
+                                        <frame key="frameInset" minX="97" minY="91" width="101" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Send Message"/>
+                                        <connections>
+                                            <action selector="sendButtonAction:" destination="oh2-Qq-fnV" eventType="touchUpInside" id="8Vc-jl-qpA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xeG-oU-MTA" firstAttribute="top" secondItem="D6p-iF-g1R" secondAttribute="bottom" id="DV8-Jx-gHE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xeG-oU-MTA" secondAttribute="trailing" id="fYY-vp-XsC"/>
+                            <constraint firstItem="KHd-r7-Ok0" firstAttribute="top" secondItem="xeG-oU-MTA" secondAttribute="bottom" id="qC2-GQ-8Ys"/>
+                            <constraint firstItem="xeG-oU-MTA" firstAttribute="leading" secondItem="2EW-5X-CE2" secondAttribute="leadingMargin" id="uAy-qN-3Mt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sendMessageToUser" destination="2Dx-hK-f8z" id="ip7-Eo-0RX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YeL-Hi-vf0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1262" y="81"/>
+        </scene>
+    </scenes>
+</document>
