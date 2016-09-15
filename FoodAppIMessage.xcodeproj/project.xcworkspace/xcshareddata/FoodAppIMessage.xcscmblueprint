@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "90BA1F02BEDF9640F8C2F89BBCD51EBB0FAEA1FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "90BA1F02BEDF9640F8C2F89BBCD51EBB0FAEA1FC" : 9223372036854775807,
+    "F622E1E4D96CBF465D8E35631C48A69770752885" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "15D3728A-370F-4F5B-A7AC-446D31DC401B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "90BA1F02BEDF9640F8C2F89BBCD51EBB0FAEA1FC" : "FoodAppIMessage\/",
+    "F622E1E4D96CBF465D8E35631C48A69770752885" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FoodAppIMessage",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FoodAppIMessage.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shrawan2015\/FoodAppImessage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90BA1F02BEDF9640F8C2F89BBCD51EBB0FAEA1FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shrawan2015\/SampleDemoExample-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F622E1E4D96CBF465D8E35631C48A69770752885"
+    }
+  ]
+}

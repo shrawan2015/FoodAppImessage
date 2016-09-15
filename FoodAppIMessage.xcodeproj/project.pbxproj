@@ -24,6 +24,8 @@
 		04E4BF9A1D8AF5D000ED79BE /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4BF991D8AF5D000ED79BE /* MessageModel.swift */; };
 		04E4BF9C1D8AFCCB00ED79BE /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E4BF9B1D8AFCCB00ED79BE /* photo.jpg */; };
 		04E4BF9E1D8AFEF300ED79BE /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E4BF9D1D8AFEF300ED79BE /* photo.jpg */; };
+		04E4BFA01D8B004C00ED79BE /* foodSend.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E4BF9F1D8B004C00ED79BE /* foodSend.png */; };
+		04E4BFA21D8B005C00ED79BE /* foodReceive.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E4BFA11D8B005C00ED79BE /* foodReceive.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		04E4BF991D8AF5D000ED79BE /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		04E4BF9B1D8AFCCB00ED79BE /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo.jpg; path = ../../../photo.jpg; sourceTree = "<group>"; };
 		04E4BF9D1D8AFEF300ED79BE /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo.jpg; path = FoodIMessage/photo.jpg; sourceTree = SOURCE_ROOT; };
+		04E4BF9F1D8B004C00ED79BE /* foodSend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foodSend.png; path = ../../foodSend.png; sourceTree = "<group>"; };
+		04E4BFA11D8B005C00ED79BE /* foodReceive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodReceive.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 		04E4BF431D8AE14100ED79BE = {
 			isa = PBXGroup;
 			children = (
+				04E4BF9F1D8B004C00ED79BE /* foodSend.png */,
 				04E4BF4E1D8AE14100ED79BE /* FoodAppIMessage */,
 				04E4BF631D8AE14200ED79BE /* FoodAppIMessageTests */,
 				04E4BF6E1D8AE14200ED79BE /* FoodAppIMessageUITests */,
@@ -153,6 +158,7 @@
 				04E4BF9D1D8AFEF300ED79BE /* photo.jpg */,
 				04E4BF4F1D8AE14100ED79BE /* AppDelegate.swift */,
 				04E4BF9B1D8AFCCB00ED79BE /* photo.jpg */,
+				04E4BFA11D8B005C00ED79BE /* foodReceive.png */,
 				04E4BF511D8AE14100ED79BE /* ViewController.swift */,
 				04E4BF531D8AE14100ED79BE /* Main.storyboard */,
 				04E4BF561D8AE14100ED79BE /* Assets.xcassets */,
@@ -333,6 +339,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E4BFA01D8B004C00ED79BE /* foodSend.png in Resources */,
+				04E4BFA21D8B005C00ED79BE /* foodReceive.png in Resources */,
 				04E4BF5A1D8AE14100ED79BE /* LaunchScreen.storyboard in Resources */,
 				04E4BF571D8AE14100ED79BE /* Assets.xcassets in Resources */,
 				04E4BF9E1D8AFEF300ED79BE /* photo.jpg in Resources */,
